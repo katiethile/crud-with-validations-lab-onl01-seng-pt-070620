@@ -18,8 +18,13 @@ ActiveRecord::Schema.define(version: 1) do
     t.integer  "release_year"
     t.string   "artist_name"
     t.string   "genre"
+<<<<<<< HEAD
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+=======
+    t.datetime "created_at"
+    t.datetime "updated_at"
+>>>>>>> 015d347b8367a87dda197d0f51d8db8672921002
   end
 
 end
